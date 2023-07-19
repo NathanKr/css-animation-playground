@@ -1,0 +1,14 @@
+.container div {
+    width: 100px;
+    height: 100px;
+    /* -- opacity : 1 --> not transparent */
+    opacity : 1; 
+    background: cyan;
+    transition: opacity 4s;
+  }
+  
+  .container div:hover {
+    /* background: blue; */
+    /* -- opacity : 0 --> transparent */
+    opacity : 0; 
+  }

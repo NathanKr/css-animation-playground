@@ -1,0 +1,11 @@
+.container div {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  transition: width 4s;
+}
+
+.container div:hover {
+  width: 300px;
+  background: blue;
+}

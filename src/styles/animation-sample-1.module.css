@@ -1,0 +1,15 @@
+.container div {
+  width: 100px;
+  height: 100px;
+  animation: sample1 4s;
+  background-color: blue;
+}
+
+@keyframes sample1 {
+  from {
+    background-color: aqua;
+  }
+  to {
+    background-color: blue;
+  }
+}
