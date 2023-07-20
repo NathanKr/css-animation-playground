@@ -18,7 +18,7 @@ const elems = components.map(func=>  func())
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <h1>CSS animation</h1>
-    <div style="display:flex;">
+    <div style="display:flex;flex-direction: column;">
     ${elems}
    </div>
   </div>
